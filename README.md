@@ -2,7 +2,7 @@
 Aquí estaré agregando las notas/notebooks de la clase de Computación Científica (Intersemestral 2024).
 
 # Primeros pasos (Instalación):
-
+https://github.com/pedroelias/ClasesComputacionCientifica/blob/main/README.md
 ## Julia + conda :
 
 1. Instalar Julia:
@@ -11,16 +11,17 @@ Aquí estaré agregando las notas/notebooks de la clase de Computación Científ
   
   b. Después de instalar es necesario poner el path de Julia en source (usualmente hay instrucciones de como hacer esto para cada sistema operativo después de terminar la instalación).
   
-3. Instalar conda:
+2. Instalar conda:
   a. Puede ser [instalando Anaconda](https://www.anaconda.com/download): Es más completo, recomendado para uso de paquetería de Machine learning.
 
   b. Instalando [mini-conda](https://docs.anaconda.com/miniconda/miniconda-install/): Es lo necesario para este curso.
-5. Empezar un ambiente con conda:
+  
+3. Empezar un ambiente con conda:
     ```
     conda create -n JuliaEnv2 pip
     ```
     
-6. Abrir una notebook en Julia:
+4. Abrir una notebook en Julia:
  a. Instalar IJulia desde Julia (para tener Julia notebooks):
 
     i. Una vez dentro de la notebook usar:
